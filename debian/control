@@ -1,0 +1,85 @@
+Source: qtquick1-opensource-src
+Section: libs
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: debhelper (>= 9),
+               dpkg-dev (>= 1.16.1),
+               pkg-kde-tools,
+               qtbase5-private-dev,
+               qtscript5-private-dev,
+               libqt5v8-5-private-dev,
+               qtdeclarative5-private-dev,
+               libqt5opengl5-dev,
+               libqt5webkit5-dev,
+               libgstreamer0.10-dev, 
+               libxml2-dev,
+               libxslt1-dev,
+               libgstreamer-plugins-base0.10-dev,
+               libsqlite3-dev,
+               qt5-default,
+               qtlocation5-dev,
+               qtsensors5-dev,
+Standards-Version: 3.9.4
+Homepage: http://qt-project.org/
+
+Package: libqt5declarative5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt Quick 1 module for Qt 5
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains library files for the older Qt Quick 1 
+ (Qt Declarative) on Qt 5.
+
+Package: qtquick1-5-dev-tools
+Section: libdevel
+Architecture: any
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Depends: libqt5declarative5 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Description: Qt Quick 1 tools
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the development programs for Qt Quick 1 on Qt 5.
+
+Package: qtquick1-5-dev
+Architecture: any
+Section: libdevel
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Depends: libqt5declarative5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Qt Quick 1 development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the development files for building 
+ Qt Quick 1 applications on Qt 5.
+
+Package: qtquick1-5-examples
+Architecture: any
+Section: x11
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt Quick 1 examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt Quick 1 examples for Qt 5.
+
+Package: qtquick1-5-dbg
+Priority: extra
+Architecture: any
+Section: debug
+Depends: libqt5declarative5 (= ${binary:Version}),
+         qtquick1-5-examples (= ${binary:Version}),
+         ${misc:Depends}
+Description: Qt Quick 1 library debugging symbols
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the debugging symbols for the Qt Quick 1
+ libraries on Qt 5.
