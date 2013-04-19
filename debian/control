@@ -37,6 +37,7 @@ Description: Qt Quick 1 module for Qt 5
 Package: qtquick1-5-dev-tools
 Section: libdevel
 Architecture: any
+Multi-Arch: foreign
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: libqt5declarative5 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Description: Qt Quick 1 tools
@@ -48,7 +49,6 @@ Description: Qt Quick 1 tools
 Package: qtquick1-5-dev
 Architecture: any
 Section: libdevel
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: libqt5declarative5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
@@ -61,6 +61,7 @@ Description: Qt Quick 1 development files
 
 Package: qtquick1-5-examples
 Architecture: any
+Multi-Arch: same
 Section: x11
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
