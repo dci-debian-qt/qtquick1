@@ -1,0 +1,2 @@
+version=3
+http://origin.releases.qt-project.org/qt5/([\d\.]*)/submodules_tar/qtquick1-opensource-src-([^-]*)\.tar.xz
