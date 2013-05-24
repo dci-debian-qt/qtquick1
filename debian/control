@@ -15,8 +15,7 @@ Build-Depends: debhelper (>= 9),
                libxml2-dev,
                libxslt1-dev,
                libgstreamer-plugins-base0.10-dev,
-               libsqlite3-dev,
-               qt5-default
+               libsqlite3-dev
 Standards-Version: 3.9.4
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtquick1.git
