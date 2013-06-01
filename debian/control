@@ -82,8 +82,8 @@ Priority: extra
 Architecture: any
 Section: debug
 Depends: libqt5declarative5 (= ${binary:Version}),
-         qtquick1-5-examples (= ${binary:Version}),
          ${misc:Depends}
+Suggests: qtquick1-5-examples (= ${binary:Version}),
 Description: Qt Quick 1 library debugging symbols
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
