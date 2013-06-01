@@ -33,7 +33,6 @@ usr/lib/*/qt5/examples/declarative/animation/behaviors/behavior-example/main.cpp
 usr/lib/*/qt5/examples/declarative/animation/behaviors/behavior-example/qml/behaviours/SideRect.qml
 usr/lib/*/qt5/examples/declarative/animation/behaviors/behavior-example/qml/behaviours/behavior-example.qml
 usr/lib/*/qt5/examples/declarative/animation/behaviors/wigglytext/main.cpp
-usr/lib/*/qt5/examples/declarative/animation/behaviors/wigglytext/qml/wigglytext/wigglytext.qml
 usr/lib/*/qt5/examples/declarative/animation/behaviors/wigglytext/wigglytext.png
 usr/lib/*/qt5/examples/declarative/animation/behaviors/wigglytext/wigglytext.pro
 usr/lib/*/qt5/examples/declarative/animation/behaviors/wigglytext/wigglytext.qmlproject
@@ -129,8 +128,6 @@ usr/lib/*/qt5/examples/declarative/cppextensions/qgraphicslayouts/qgraphicslinea
 usr/lib/*/qt5/examples/declarative/cppextensions/qgraphicslayouts/qgraphicslinearlayout/qgraphicslinearlayout
 usr/lib/*/qt5/examples/declarative/cppextensions/qgraphicslayouts/qgraphicslinearlayout/qgraphicslinearlayout.pro
 usr/lib/*/qt5/examples/declarative/cppextensions/qgraphicslayouts/qgraphicslinearlayout/qml/qgraphicslinearlayout/qgraphicslinearlayout.qml
-usr/lib/*/qt5/examples/declarative/cppextensions/qwidgets/QWidgets/libqmlqwidgetsplugin.so
-usr/lib/*/qt5/examples/declarative/cppextensions/qwidgets/QWidgets/qmldir
 usr/lib/*/qt5/examples/declarative/cppextensions/qwidgets/README
 usr/lib/*/qt5/examples/declarative/cppextensions/qwidgets/qwidgets.cpp
 usr/lib/*/qt5/examples/declarative/cppextensions/qwidgets/qwidgets.json
