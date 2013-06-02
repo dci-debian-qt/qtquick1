@@ -50,7 +50,7 @@ Description: Qt 5 QtQuick1 qmltooling plugins
  .
  This package contains qmltooling plugins.
 
-Package: qtquick1-qml-plugins.install
+Package: qtquick1-qml-plugins
 Architecture: any
 Multi-Arch: same
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
