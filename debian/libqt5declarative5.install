@@ -15,5 +15,3 @@ usr/lib/*/qt5/imports/QtWebKit/libqmlwebkitplugin.so
 usr/lib/*/qt5/imports/QtWebKit/plugins.qmltypes
 usr/lib/*/qt5/imports/QtWebKit/qmldir
 usr/lib/*/qt5/imports/builtins.qmltypes
-usr/lib/*/qt5/plugins/qmltooling/libqmldbg_inspector.so
-usr/lib/*/qt5/plugins/qmltooling/libqmldbg_tcp_qtdeclarative.so
