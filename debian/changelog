@@ -1,5 +1,5 @@
-qtquick1-opensource-src (5.0.2-1) UNRELEASED; urgency=low
+qtquick1-opensource-src (5.0.2-1) experimental; urgency=low
 
   * Initial release (Closes: #697509).
 
- -- Timo Jyrinki <timo@debian.org>  Tue, 29 Jan 2013 13:44:39 +0000
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 02 Jun 2013 10:15:44 -0300
