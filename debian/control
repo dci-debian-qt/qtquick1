@@ -42,7 +42,7 @@ Package: qtquick1-5-dev-tools
 Section: libdevel
 Architecture: any
 Multi-Arch: foreign
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: qtchooser, libqt5declarative5 (= ${binary:Version}),
  ${misc:Depends}, ${shlibs:Depends}
 Description: Qt Quick 1 tools
@@ -56,7 +56,6 @@ Architecture: any
 Section: libdevel
 Depends: libqt5declarative5 (= ${binary:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
 Description: Qt Quick 1 development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
