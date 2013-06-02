@@ -1,5 +1,7 @@
 qtquick1-opensource-src (5.0.2-2) UNRELEASED; urgency=low
 
+  * Split QML plugins in their own package.
+
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 02 Jun 2013 11:18:25 -0300
 
 qtquick1-opensource-src (5.0.2-1) experimental; urgency=low
