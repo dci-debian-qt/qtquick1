@@ -1,2 +1,2 @@
-usr/lib/*/qt5/plugins/qmltooling/libqmldbg_inspector.so
-usr/lib/*/qt5/plugins/qmltooling/libqmldbg_tcp_qtdeclarative.so
+usr/lib/*/qt5/plugins/qml1tooling/libqmldbg_inspector.so
+usr/lib/*/qt5/plugins/qml1tooling/libqmldbg_tcp_qtdeclarative.so

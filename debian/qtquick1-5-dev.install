@@ -23,6 +23,7 @@ usr/include/qt5/QtDeclarative/QDeclarativeScriptString
 usr/include/qt5/QtDeclarative/QDeclarativeTypeInfo
 usr/include/qt5/QtDeclarative/QDeclarativeView
 usr/include/qt5/QtDeclarative/QtDeclarative
+usr/include/qt5/QtDeclarative/QtDeclarativeDepends
 usr/include/qt5/QtDeclarative/QtDeclarativeVersion
 usr/include/qt5/QtDeclarative/qdeclarative.h
 usr/include/qt5/QtDeclarative/qdeclarativecomponent.h
