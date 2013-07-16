@@ -1,14 +1,14 @@
-qtquick1-opensource-src (5.1.0-1) UNRELEASED; urgency=low
+qtquick1-opensource-src (5.1.0-1) experimental; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Fix watch file.
   * Bump Qt build dependencies to 5.1.0~.
   * Update install files.
   * Update symbols file.
-  * Make qtquick1-5-dbg M-A: same, to allow coinstalability of debugging symbols.
+  * Make qtquick1-5-dbg M-A: same, to allow coinstalability of debugging
+    symbols.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Jul 2013 00:08:10 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 16 Jul 2013 10:48:15 -0300
 
 qtquick1-opensource-src (5.0.2-2) experimental; urgency=low
 
