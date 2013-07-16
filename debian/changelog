@@ -5,6 +5,7 @@ qtquick1-opensource-src (5.1.0-1) UNRELEASED; urgency=low
   * Fix watch file.
   * Bump Qt build dependencies to 5.1.0~.
   * Update install files.
+  * Update symbols file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Jul 2013 00:08:10 -0300
 

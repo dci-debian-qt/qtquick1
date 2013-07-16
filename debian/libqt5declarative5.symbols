@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _Z10qmlContextPK7QObject@Base 5.0.2
  _Z18qmlExecuteDeferredP7QObject@Base 5.0.2
@@ -8,7 +8,14 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _Z7qmlInfoPK7QObjectRK17QDeclarativeError@Base 5.0.2
  _Z7qmlInfoPK7QObjectRK5QListI17QDeclarativeErrorE@Base 5.0.2
  _Z9qmlEnginePK7QObject@Base 5.0.2
- _ZN10QByteArray4dataEv@Base 5.0.2
+ _ZN13QtDeclarative10qmlContextEPK7QObject@Base 5.1.0
+ _ZN13QtDeclarative18qmlExecuteDeferredEP7QObject@Base 5.1.0
+ _ZN13QtDeclarative27qmlAttachedPropertiesObjectEPiPK7QObjectPK11QMetaObjectb@Base 5.1.0
+ _ZN13QtDeclarative31qmlAttachedPropertiesObjectByIdEiPK7QObjectb@Base 5.1.0
+ _ZN13QtDeclarative7qmlInfoEPK7QObject@Base 5.1.0
+ _ZN13QtDeclarative7qmlInfoEPK7QObjectRK17QDeclarativeError@Base 5.1.0
+ _ZN13QtDeclarative7qmlInfoEPK7QObjectRK5QListI17QDeclarativeErrorE@Base 5.1.0
+ _ZN13QtDeclarative9qmlEngineEPK7QObject@Base 5.1.0
  _ZN15QDeclarativePen10penChangedEv@Base 5.0.2
  _ZN15QDeclarativePen11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN15QDeclarativePen11qt_metacastEPKc@Base 5.0.2
@@ -235,8 +242,6 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN18QDeclarativeActionC2EP7QObjectRK7QStringP19QDeclarativeContextRK8QVariant@Base 5.0.2
  _ZN18QDeclarativeActionC2EP7QObjectRK7QStringRK8QVariant@Base 5.0.2
  _ZN18QDeclarativeActionC2Ev@Base 5.0.2
- _ZN18QDeclarativeActionD1Ev@Base 5.0.2
- _ZN18QDeclarativeActionD2Ev@Base 5.0.2
  _ZN18QDeclarativeEngine10setBaseUrlERK4QUrl@Base 5.0.2
  _ZN18QDeclarativeEngine11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN18QDeclarativeEngine11qt_metacastEPKc@Base 5.0.2
@@ -442,6 +447,7 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN20QDeclarativeMetaType12typeCategoryEi@Base 5.0.2
  _ZN20QDeclarativeMetaType13defaultMethodEP7QObject@Base 5.0.2
  _ZN20QDeclarativeMetaType13defaultMethodEPK11QMetaObject@Base 5.0.2
+ _ZN20QDeclarativeMetaType13qmlComponentsERK10QByteArrayii@Base 5.1.0
  _ZN20QDeclarativeMetaType15defaultPropertyEP7QObject@Base 5.0.2
  _ZN20QDeclarativeMetaType15defaultPropertyEPK11QMetaObject@Base 5.0.2
  _ZN20QDeclarativeMetaType15parentFunctionsEv@Base 5.0.2
@@ -1334,9 +1340,7 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN7QPacketD0Ev@Base 5.0.2
  _ZN7QPacketD1Ev@Base 5.0.2
  _ZN7QPacketD2Ev@Base 5.0.2
- _ZN7QString5clearEv@Base 5.0.2
  _ZN9QBitArray8clearBitEi@Base 5.0.2
- _ZN9QHashData8willGrowEv@Base 5.0.2
  _ZNK12QPaintDevice7devTypeEv@Base 5.0.2
  _ZNK15QDeclarativePen10metaObjectEv@Base 5.0.2
  _ZNK15QPacketProtocol10metaObjectEv@Base 5.0.2
