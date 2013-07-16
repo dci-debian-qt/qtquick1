@@ -3,6 +3,7 @@ qtquick1-opensource-src (5.1.0-1) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Fix watch file.
+  * Bump Qt build dependencies to 5.1.0~.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Jul 2013 00:08:10 -0300
 
