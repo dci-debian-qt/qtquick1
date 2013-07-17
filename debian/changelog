@@ -1,5 +1,10 @@
 qtquick1-opensource-src (5.1.0-2) UNRELEASED; urgency=low
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Improve the copyright file:
+    - Add myself to the Debian stuff.
+    - Use 2012-2013 for Digia's copyrights.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Jul 2013 10:07:29 -0300
 
 qtquick1-opensource-src (5.1.0-1) experimental; urgency=low
