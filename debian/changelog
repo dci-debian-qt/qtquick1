@@ -1,3 +1,7 @@
+qtquick1-opensource-src (5.1.0-2) UNRELEASED; urgency=low
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Jul 2013 10:07:29 -0300
+
 qtquick1-opensource-src (5.1.0-1) experimental; urgency=low
 
   * New upstream release.
