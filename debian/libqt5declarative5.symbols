@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.0 amd64
+# SymbolsHelper-Confirmed: 5.1.0 amd64 i386
 libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _Z10qmlContextPK7QObject@Base 5.0.2
  _Z18qmlExecuteDeferredP7QObject@Base 5.0.2
@@ -1413,7 +1413,7 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZNK16QDeclarativeType28containsRevisionedAttributesEv@Base 5.0.2
  _ZNK16QDeclarativeType28propertyValueInterceptorCastEv@Base 5.0.2
  _ZNK16QDeclarativeType5indexEv@Base 5.0.2
- _ZNK16QDeclarativeType6createEPP7QObjectPPvm@Base 5.0.2
+ (subst)_ZNK16QDeclarativeType6createEPP7QObjectPPv{size_t}@Base 5.0.2
  _ZNK16QDeclarativeType6createEv@Base 5.0.2
  _ZNK16QDeclarativeType6moduleEv@Base 5.0.2
  _ZNK16QDeclarativeType6typeIdEv@Base 5.0.2
