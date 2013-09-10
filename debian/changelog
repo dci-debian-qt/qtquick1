@@ -1,5 +1,7 @@
 qtquick1-opensource-src (5.1.1-2) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Update symbols file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Sep 2013 17:45:41 +0200
 
