@@ -1,12 +1,11 @@
-qtquick1-opensource-src (5.2.0-1) UNRELEASED; urgency=medium
+qtquick1-opensource-src (5.2.0-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Bump Qt build dependencies.
   * Remove new private stuff we are not shipping.
   * Recreate symbols that used the qreal substitution.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Dec 2013 15:52:25 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 19 Dec 2013 16:18:14 -0300
 
 qtquick1-opensource-src (5.1.1-2) unstable; urgency=low
 
