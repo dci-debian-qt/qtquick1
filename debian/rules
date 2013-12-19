@@ -20,6 +20,8 @@ override_dh_auto_install:
 	# Remove stuff that we don't ship.
 	# Private headers.
 	rm -vrf debian/tmp/usr/include/qt5/QtDeclarative/5.?.?/QtDeclarative/private
+	# And other private stuff.
+	rm -fv debian/tmp/usr/share/qt5/mkspecs/modules/qt_lib_declarative_private.pri
 	# libtool-like files
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
 
