@@ -81,6 +81,7 @@ Package: qtquick1-5-dev
 Architecture: any
 Section: libdevel
 Depends: libqt5declarative5 (= ${binary:Version}),
+         qtbase5-dev,
          ${misc:Depends},
 Description: Qt Quick 1 development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
