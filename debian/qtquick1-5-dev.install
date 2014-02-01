@@ -54,4 +54,4 @@ usr/lib/*/cmake/Qt5Declarative/Qt5DeclarativeConfigVersion.cmake
 usr/lib/*/libQt5Declarative.prl
 usr/lib/*/libQt5Declarative.so
 usr/lib/*/pkgconfig/Qt5Declarative.pc
-usr/share/qt5/mkspecs/modules/qt_lib_declarative.pri
+usr/lib/*/qt5/mkspecs/modules/qt_lib_declarative.pri
