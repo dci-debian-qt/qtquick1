@@ -10,18 +10,18 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
            Timo Jyrinki <timo@debian.org>
 Build-Depends: debhelper (>= 9),
                dpkg-dev (>= 1.16.1),
-               pkg-kde-tools,
-               qtbase5-private-dev (>= 5.2.1+dfsg~),
-               qtscript5-private-dev (>= 5.2.1~),
-               qtdeclarative5-private-dev (>= 5.2.1~),
-               libqt5opengl5-dev (>= 5.2.1+dfsg~),
-               libqt5webkit5-dev (>= 5.2.1+dfsg~),
+               libgstreamer-plugins-base0.10-dev,
                libgstreamer0.10-dev,
                libicu-dev,
+               libqt5opengl5-dev (>= 5.2.1+dfsg~),
+               libqt5webkit5-dev (>= 5.2.1+dfsg~),
+               libsqlite3-dev,
                libxml2-dev,
                libxslt1-dev,
-               libgstreamer-plugins-base0.10-dev,
-               libsqlite3-dev
+               pkg-kde-tools,
+               qtbase5-private-dev (>= 5.2.1+dfsg~),
+               qtdeclarative5-private-dev (>= 5.2.1~),
+               qtscript5-private-dev (>= 5.2.1~)
 Standards-Version: 3.9.5
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtquick1.git
@@ -36,7 +36,7 @@ Description: Qt Quick 1 module for Qt 5
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains library files for the older Qt Quick 1 
+ This package contains library files for the older Qt Quick 1
  (Qt Declarative) on Qt 5.
 
 Package: qtquick1-qmltooling-plugins
@@ -44,7 +44,8 @@ Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: libqt5declarative5 (= ${binary:Version}),
- ${misc:Depends}, ${shlibs:Depends}
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Qt 5 QtQuick1 qmltooling plugins
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -56,7 +57,8 @@ Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: libqt5declarative5 (= ${binary:Version}),
- ${misc:Depends}, ${shlibs:Depends}
+         ${misc:Depends},
+         ${shlibs:Depends}
 Breaks: libqt5declarative5 (<< 5.0.2-2~)
 Replaces: libqt5declarative5 (<< 5.0.2-2~)
 Description: Qt 5 QtQuick1 qml plugins
@@ -69,8 +71,10 @@ Package: qtquick1-5-dev-tools
 Section: libdevel
 Architecture: any
 Multi-Arch: foreign
-Depends: qtchooser, libqt5declarative5 (= ${binary:Version}),
- ${misc:Depends}, ${shlibs:Depends}
+Depends: libqt5declarative5 (= ${binary:Version}),
+         qtchooser,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Qt Quick 1 tools
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -80,14 +84,12 @@ Description: Qt Quick 1 tools
 Package: qtquick1-5-dev
 Architecture: any
 Section: libdevel
-Depends: libqt5declarative5 (= ${binary:Version}),
-         qtbase5-dev,
-         ${misc:Depends},
+Depends: libqt5declarative5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
 Description: Qt Quick 1 development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains the development files for building 
+ This package contains the development files for building
  Qt Quick 1 applications on Qt 5.
 
 Package: qtquick1-5-examples
@@ -107,9 +109,8 @@ Priority: extra
 Architecture: any
 Multi-Arch: same
 Section: debug
-Depends: libqt5declarative5 (= ${binary:Version}),
-         ${misc:Depends}
-Suggests: qtquick1-5-examples (= ${binary:Version}),
+Depends: libqt5declarative5 (= ${binary:Version}), ${misc:Depends}
+Suggests: qtquick1-5-examples (= ${binary:Version})
 Description: Qt Quick 1 library debugging symbols
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
