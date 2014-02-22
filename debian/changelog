@@ -4,6 +4,7 @@ qtquick1-opensource-src (5.2.1-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build dependencies.
   * No symbols changes since last upload.
+  * Add libicu-dev as build dependency, as it now seems required.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 22 Feb 2014 12:45:31 -0300
 
