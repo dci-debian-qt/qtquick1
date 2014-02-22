@@ -2,6 +2,7 @@ qtquick1-opensource-src (5.2.1-1) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
+  * Bump Qt build dependencies.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 22 Feb 2014 12:45:31 -0300
 
