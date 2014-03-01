@@ -1,5 +1,8 @@
 qtquick1-opensource-src (5.2.1-2) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Install private headers, needed by Qt Creator.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Mar 2014 17:01:31 -0300
 
 qtquick1-opensource-src (5.2.1-1) experimental; urgency=medium
