@@ -7,6 +7,7 @@ qtquick1-opensource-src (5.2.1-2) UNRELEASED; urgency=medium
       qtquick-abi-5-2-1.
     - Mark private symbols as such.
   * Simplify qtquick1-5-dev.install.
+  * Update symbols files with current and buildd's logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Mar 2014 17:01:31 -0300
 

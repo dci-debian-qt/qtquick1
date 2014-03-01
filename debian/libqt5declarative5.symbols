@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0 amd64
+# SymbolsHelper-Confirmed: 5.2.1 amd64 sparc
 libQt5Declarative.so.5 libqt5declarative5 #MINVER#
 | libqt5declarative5 #MINVER#, qtquick1-abi-5-2-1
  _Z10qmlContextPK7QObject@Base 5.0.2
@@ -243,6 +243,8 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN18QDeclarativeActionC2EP7QObjectRK7QStringP19QDeclarativeContextRK8QVariant@Base 5.0.2 1
  _ZN18QDeclarativeActionC2EP7QObjectRK7QStringRK8QVariant@Base 5.0.2 1
  _ZN18QDeclarativeActionC2Ev@Base 5.0.2 1
+ (arch=sparc)_ZN18QDeclarativeActionD1Ev@Base 5.2.1 1
+ (arch=sparc)_ZN18QDeclarativeActionD2Ev@Base 5.2.1 1
  _ZN18QDeclarativeEngine10setBaseUrlERK4QUrl@Base 5.0.2
  _ZN18QDeclarativeEngine11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN18QDeclarativeEngine11qt_metacastEPKc@Base 5.0.2
@@ -1341,7 +1343,7 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN7QPacketD0Ev@Base 5.0.2 1
  _ZN7QPacketD1Ev@Base 5.0.2 1
  _ZN7QPacketD2Ev@Base 5.0.2 1
- _ZN9QBitArray8clearBitEi@Base 5.0.2
+ (arch=!sparc)_ZN9QBitArray8clearBitEi@Base 5.0.2
  _ZNK12QPaintDevice7devTypeEv@Base 5.0.2
  _ZNK15QDeclarativePen10metaObjectEv@Base 5.0.2 1
  _ZNK15QPacketProtocol10metaObjectEv@Base 5.0.2 1
@@ -1833,6 +1835,35 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZNK38QDeclarativeDebugObjectExpressionWatch10metaObjectEv@Base 5.0.2 1
  _ZNK7QPacket4dataEv@Base 5.0.2 1
  _ZNK7QPacket7isEmptyEv@Base 5.0.2 1
+ (optional=templinst|arch=sparc)_ZSt11__push_heapIN5QListI5QPairIi6UpdateEE8iteratorEiS3_EvT_T0_S7_T1_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt13__adjust_heapIN5QListI5QPairIi6UpdateEE8iteratorEiS3_EvT_T0_S7_T1_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt13__adjust_heapIN5QListI7QStringE8iteratorEiS1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt13__adjust_heapIN5QListIP13QGraphicsItemE8iteratorEiS2_PFbS2_S2_EEvT_T0_S8_T1_T2_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt13__adjust_heapIN5QListIPN18QDeclarativeParser5ValueEE8iteratorEiS3_PFbPKS2_S7_EEvT_T0_SB_T1_T2_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt13__heap_selectIN5QListIP13QGraphicsItemE8iteratorEPFbS2_S2_EEvT_S7_S7_T0_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt13__heap_selectIN5QListIPN18QDeclarativeParser5ValueEE8iteratorEPFbPKS2_S7_EEvT_SA_SA_T0_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt16__insertion_sortIN5QListI5QPairIi6UpdateEE8iteratorEEvT_S6_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt16__insertion_sortIN5QListI7QStringE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt16__insertion_sortIN5QListIP13QGraphicsItemE8iteratorEPFbS2_S2_EEvT_S7_T0_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt16__insertion_sortIN5QListIPN18QDeclarativeParser5ValueEE8iteratorEPFbPKS2_S7_EEvT_SA_T0_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt16__introsort_loopIN5QListI5QPairIi6UpdateEE8iteratorEiEvT_S6_T0_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt16__introsort_loopIN5QListI7QStringE8iteratorEiPFbRKS1_S5_EEvT_S8_T0_T1_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt16__introsort_loopIN5QListIP13QGraphicsItemE8iteratorEiPFbS2_S2_EEvT_S7_T0_T1_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt16__introsort_loopIN5QListIPN18QDeclarativeParser5ValueEE8iteratorEiPFbPKS2_S7_EEvT_SA_T0_T1_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt19__move_median_firstIN5QListI5QPairIi6UpdateEE8iteratorEEvT_S6_S6_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt19__move_median_firstIN5QListI7QStringE8iteratorEPFbRKS1_S5_EEvT_S8_S8_T0_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt19__move_median_firstIN5QListIP13QGraphicsItemE8iteratorEPFbS2_S2_EEvT_S7_S7_T0_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt19__move_median_firstIN5QListIPN18QDeclarativeParser5ValueEE8iteratorEPFbPKS2_S7_EEvT_SA_SA_T0_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt21__unguarded_partitionIN5QListI5QPairIi6UpdateEE8iteratorES3_ET_S6_S6_RKT0_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt21__unguarded_partitionIN5QListI7QStringE8iteratorES1_PFbRKS1_S5_EET_S8_S8_RKT0_T1_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt21__unguarded_partitionIN5QListIP13QGraphicsItemE8iteratorES2_PFbS2_S2_EET_S7_S7_RKT0_T1_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt21__unguarded_partitionIN5QListIPN18QDeclarativeParser5ValueEE8iteratorES3_PFbPKS2_S7_EET_SA_SA_RKT0_T1_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt22__final_insertion_sortIN5QListIP13QGraphicsItemE8iteratorEPFbS2_S2_EEvT_S7_T0_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt22__final_insertion_sortIN5QListIPN18QDeclarativeParser5ValueEE8iteratorEPFbPKS2_S7_EEvT_SA_T0_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt25__unguarded_linear_insertIN5QListI5QPairIi6UpdateEE8iteratorEEvT_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt25__unguarded_linear_insertIN5QListI7QStringE8iteratorEPFbRKS1_S5_EEvT_T0_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt9make_heapIN5QListI5QPairIi6UpdateEE8iteratorEEvT_S6_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt9make_heapIN5QListI7QStringE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.2.1
  _ZTI11QDataStream@Base 5.0.2
  _ZTI11QMetaObject@Base 5.0.2
  _ZTI11QSharedData@Base 5.0.2
