@@ -1,14 +1,12 @@
 qtquick1-opensource-src (5.2.1-2) UNRELEASED; urgency=medium
 
-<<<<<<<
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Install private headers, needed by Qt Creator.
     - Add script to mark private symbols as such.
+    - Modify symbols file to make users of private symbols to depend on
+      qtquick-abi-5-2-1.
+    - Mark private symbols as such.
   * Simplify qtquick1-5-dev.install.
-=======
-  [ Lisandro Damián Nicanor Pérez Meyer ]
-  * Install private headers, needed by Qt Creator.
->>>>>>>
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Mar 2014 17:01:31 -0300
 
