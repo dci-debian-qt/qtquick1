@@ -8,6 +8,7 @@ qtquick1-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
   * Improve mark_private_symbols.sh to be able to show private symbols not
     marked as such at build time. Modify debian/rules accordingly.
   * Do not override dh_builddeb, xz is now the default compression method.
+  * Update install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 May 2014 15:37:13 -0300
 
