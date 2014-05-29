@@ -5,6 +5,8 @@ qtquick1-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
   * Bump Qt build dependencies.
   * Move headers to their new m-a path. Mark development package as
     Multi-Arch: same.
+  * Improve mark_private_symbols.sh to be able to show private symbols not
+    marked as such at build time. Modify debian/rules accordingly.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 May 2014 15:37:13 -0300
 
