@@ -8,6 +8,7 @@ License: LGPL-2.1 with Digia Qt LGPL Exception 1.1 or GPL-3
 
 Files: debian/mark_private_symbols.sh
 Copyright: 2013 Sune Vuorela <sune@debian.org>
+           2014 Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 License: Expat
 
 Files: debian/*
@@ -17,7 +18,7 @@ Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2007-2009 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2005-2007 Brian Nelson <pyro@debian.org>
            2012-2013 Timo Jyrinki <timo.jyrinki@canonical.com>
-           2012-2013 Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
+           2012-2014 Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 License: LGPL-2.1
 
 Files: examples/declarative/calculator/main.cpp
