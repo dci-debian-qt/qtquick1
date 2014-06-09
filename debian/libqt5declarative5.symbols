@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.0 amd64 powerpc s390x
+# SymbolsHelper-Confirmed: 5.3.0 amd64 armhf i386 kfreebsd-amd64 kfreebsd-i386 mipsel powerpc s390x
 libQt5Declarative.so.5 libqt5declarative5 #MINVER#
 | libqt5declarative5 #MINVER#, qtquick1-abi-5-2-1
  _Z10qmlContextPK7QObject@Base 5.0.2
@@ -9,7 +9,7 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _Z7qmlInfoPK7QObjectRK17QDeclarativeError@Base 5.0.2
  _Z7qmlInfoPK7QObjectRK5QListI17QDeclarativeErrorE@Base 5.0.2
  _Z9qmlEnginePK7QObject@Base 5.0.2
- (arch=!amd64)_ZN10QByteArray7reserveEi@Base 5.3.0
+ (arch=powerpc s390x)_ZN10QByteArray7reserveEi@Base 5.3.0
  _ZN13QtDeclarative10qmlContextEPK7QObject@Base 5.1.0
  _ZN13QtDeclarative18qmlExecuteDeferredEP7QObject@Base 5.1.0
  _ZN13QtDeclarative27qmlAttachedPropertiesObjectEPiPK7QObjectPK11QMetaObjectb@Base 5.1.0
