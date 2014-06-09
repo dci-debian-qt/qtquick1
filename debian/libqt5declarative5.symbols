@@ -9,7 +9,7 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _Z7qmlInfoPK7QObjectRK17QDeclarativeError@Base 5.0.2
  _Z7qmlInfoPK7QObjectRK5QListI17QDeclarativeErrorE@Base 5.0.2
  _Z9qmlEnginePK7QObject@Base 5.0.2
- (arch=powerpc s390x)_ZN10QByteArray7reserveEi@Base 5.3.0
+ (optional=gccinternal|arch=powerpc s390x)_ZN10QByteArray7reserveEi@Base 5.3.0
  _ZN13QtDeclarative10qmlContextEPK7QObject@Base 5.1.0
  _ZN13QtDeclarative18qmlExecuteDeferredEP7QObject@Base 5.1.0
  _ZN13QtDeclarative27qmlAttachedPropertiesObjectEPiPK7QObjectPK11QMetaObjectb@Base 5.1.0
