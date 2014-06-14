@@ -608,9 +608,9 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN21QDeclarativeValueType16staticMetaObjectE@Base 5.0.2 1
  _ZN21QDeclarativeValueTypeC1EP7QObject@Base 5.0.2 1
  _ZN21QDeclarativeValueTypeC2EP7QObject@Base 5.0.2 1
- _ZN21QDeclarativeValueTypeD0Ev@Base 5.0.2 1
- _ZN21QDeclarativeValueTypeD1Ev@Base 5.0.2 1
- _ZN21QDeclarativeValueTypeD2Ev@Base 5.0.2 1
+ (optional=gccinternal|arch=!amd64)_ZN21QDeclarativeValueTypeD0Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!amd64)_ZN21QDeclarativeValueTypeD1Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!amd64)_ZN21QDeclarativeValueTypeD2Ev@Base 5.3.0 1
  _ZN22QDeclarativeDebugQuery11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN22QDeclarativeDebugQuery11qt_metacastEPKc@Base 5.0.2 1
  _ZN22QDeclarativeDebugQuery12stateChangedENS_5StateE@Base 5.0.2 1
@@ -1344,7 +1344,7 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN7QPacketD0Ev@Base 5.0.2 1
  _ZN7QPacketD1Ev@Base 5.0.2 1
  _ZN7QPacketD2Ev@Base 5.0.2 1
- (arch=!sparc)_ZN9QBitArray8clearBitEi@Base 5.0.2
+ (optional=gccinternal|arch=!amd64 !sparc)_ZN9QBitArray8clearBitEi@Base 5.0.2
  _ZNK12QPaintDevice7devTypeEv@Base 5.0.2
  _ZNK15QDeclarativePen10metaObjectEv@Base 5.0.2 1
  _ZNK15QPacketProtocol10metaObjectEv@Base 5.0.2 1
