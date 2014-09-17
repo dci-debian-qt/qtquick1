@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.0 amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390x sparc64
+# SymbolsHelper-Confirmed: 5.3.1 alpha armhf hppa kfreebsd-amd64 mips64el ppc64 ppc64el
 libQt5Declarative.so.5 libqt5declarative5 #MINVER#
 | libqt5declarative5 #MINVER#, qtquick1-abi-5-2-1
  _Z10qmlContextPK7QObject@Base 5.0.2
@@ -9,7 +9,7 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _Z7qmlInfoPK7QObjectRK17QDeclarativeError@Base 5.0.2
  _Z7qmlInfoPK7QObjectRK5QListI17QDeclarativeErrorE@Base 5.0.2
  _Z9qmlEnginePK7QObject@Base 5.0.2
- (optional=gccinternal|arch=arm64 armel powerpc s390x sparc64)_ZN10QByteArray7reserveEi@Base 5.3.0
+ (optional=gccinternal|arch=alpha arm64 armel hppa powerpc ppc64 ppc64el s390x sparc64)_ZN10QByteArray7reserveEi@Base 5.3.0
  _ZN13QtDeclarative10qmlContextEPK7QObject@Base 5.1.0
  _ZN13QtDeclarative18qmlExecuteDeferredEP7QObject@Base 5.1.0
  _ZN13QtDeclarative27qmlAttachedPropertiesObjectEPiPK7QObjectPK11QMetaObjectb@Base 5.1.0
@@ -608,9 +608,9 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN21QDeclarativeValueType16staticMetaObjectE@Base 5.0.2 1
  _ZN21QDeclarativeValueTypeC1EP7QObject@Base 5.0.2 1
  _ZN21QDeclarativeValueTypeC2EP7QObject@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !s390x !sparc64)_ZN21QDeclarativeValueTypeD0Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !s390x !sparc64)_ZN21QDeclarativeValueTypeD1Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !s390x !sparc64)_ZN21QDeclarativeValueTypeD2Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !ppc64el !s390x !sparc64)_ZN21QDeclarativeValueTypeD0Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !ppc64el !s390x !sparc64)_ZN21QDeclarativeValueTypeD1Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !ppc64el !s390x !sparc64)_ZN21QDeclarativeValueTypeD2Ev@Base 5.3.0 1
  _ZN22QDeclarativeDebugQuery11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN22QDeclarativeDebugQuery11qt_metacastEPKc@Base 5.0.2 1
  _ZN22QDeclarativeDebugQuery12stateChangedENS_5StateE@Base 5.0.2 1
@@ -1344,7 +1344,7 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN7QPacketD0Ev@Base 5.0.2 1
  _ZN7QPacketD1Ev@Base 5.0.2 1
  _ZN7QPacketD2Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !s390x !sparc !sparc64)_ZN9QBitArray8clearBitEi@Base 5.0.2
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mips64el !mipsel !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN9QBitArray8clearBitEi@Base 5.0.2
  _ZNK12QPaintDevice7devTypeEv@Base 5.0.2
  _ZNK15QDeclarativePen10metaObjectEv@Base 5.0.2 1
  _ZNK15QPacketProtocol10metaObjectEv@Base 5.0.2 1
