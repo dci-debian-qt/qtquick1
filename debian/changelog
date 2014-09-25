@@ -1,5 +1,8 @@
 qtquick1-opensource-src (5.3.2-3) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Do not ship CMake files for plugins, we don't need them.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Sep 2014 22:53:19 -0300
 
 qtquick1-opensource-src (5.3.2-2) unstable; urgency=medium
