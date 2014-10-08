@@ -1,6 +1,8 @@
-qtquick1-opensource-src (5.3.2-3~bpo70+1) UNRELEASED; urgency=medium
+qtquick1-opensource-src (5.3.2-3~bpo70+1) wheezy-backports; urgency=medium
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 08 Oct 2014 12:52:52 -0300
+  * Upload to wheezy-backports.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 08 Oct 2014 13:07:51 -0300
 
 qtquick1-opensource-src (5.3.2-3) unstable; urgency=medium
 
