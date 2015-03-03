@@ -6,6 +6,7 @@ qtquick1-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
   * Update debian/watch to use https://download.qt.io/.
   * Update mark_private_symbols.sh to the latest version.
   * Mark destructors symbols missing in GCC 5 optional (closes: #778092).
+  * Clean debian/copyright a bit up.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 03 Mar 2015 13:27:14 +0300
 
