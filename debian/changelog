@@ -4,6 +4,7 @@ qtquick1-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build-dependencies to 5.4.1.
   * Update debian/watch to use https://download.qt.io/.
+  * Update mark_private_symbols.sh to the latest version.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 03 Mar 2015 13:27:14 +0300
 
