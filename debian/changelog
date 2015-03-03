@@ -1,6 +1,5 @@
-qtquick1-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
+qtquick1-opensource-src (5.4.1-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.4.1.
   * Update debian/watch to use https://download.qt.io/.
@@ -8,7 +7,7 @@ qtquick1-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
   * Mark destructors symbols missing in GCC 5 optional (closes: #778092).
   * Clean debian/copyright a bit up.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 03 Mar 2015 13:27:14 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 03 Mar 2015 15:20:05 +0300
 
 qtquick1-opensource-src (5.4.0-1) experimental; urgency=medium
 
