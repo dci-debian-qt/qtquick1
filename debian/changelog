@@ -1,4 +1,4 @@
-qtquick1-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
+qtquick1-opensource-src (5.4.2-1) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * Remove some obsolete sparc-specific symbols.
@@ -12,7 +12,7 @@ qtquick1-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
   * Use pkgkde-mark-private-symbols from pkg-kde-tools 0.15.17.
     - Update debian/copyright accordingly.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 Mar 2015 15:13:13 +0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 03 Jun 2015 14:57:06 -0300
 
 qtquick1-opensource-src (5.4.1-1) experimental; urgency=medium
 
