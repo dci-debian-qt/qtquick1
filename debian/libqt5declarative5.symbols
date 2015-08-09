@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.2 armhf powerpc
+# SymbolsHelper-Confirmed: 5.4.2 amd64
 libQt5Declarative.so.5 libqt5declarative5 #MINVER#
 | libqt5declarative5 #MINVER#, qtquick1-abi-5-2-1
  _Z10qmlContextPK7QObject@Base 5.0.2
@@ -9,7 +9,7 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _Z7qmlInfoPK7QObjectRK17QDeclarativeError@Base 5.0.2
  _Z7qmlInfoPK7QObjectRK5QListI17QDeclarativeErrorE@Base 5.0.2
  _Z9qmlEnginePK7QObject@Base 5.0.2
- (optional=inline|arch=alpha arm64 armel hppa powerpc ppc64 ppc64el s390x sparc64)_ZN10QByteArray7reserveEi@Base 5.3.0
+ (optional=inline|arch=alpha amd64 arm64 armel hppa powerpc ppc64 ppc64el s390x sparc64)_ZN10QByteArray7reserveEi@Base 5.3.0
  _ZN13QtDeclarative10qmlContextEPK7QObject@Base 5.1.0
  _ZN13QtDeclarative18qmlExecuteDeferredEP7QObject@Base 5.1.0
  _ZN13QtDeclarative27qmlAttachedPropertiesObjectEPiPK7QObjectPK11QMetaObjectb@Base 5.1.0
@@ -24,9 +24,6 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN15QDeclarativePen16staticMetaObjectE@Base 5.0.2 1
  _ZN15QDeclarativePen8setColorERK6QColor@Base 5.0.2 1
  _ZN15QDeclarativePen8setWidthEi@Base 5.0.2 1
- (optional=gccinternal)_ZN15QDeclarativePenD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN15QDeclarativePenD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN15QDeclarativePenD2Ev@Base 5.0.2 1
  _ZN15QPacketAutoSendC1EP15QPacketProtocol@Base 5.0.2 1
  _ZN15QPacketAutoSendC2EP15QPacketProtocol@Base 5.0.2 1
  _ZN15QPacketAutoSendD0Ev@Base 5.0.2 1
@@ -234,9 +231,6 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN17QDeclarativeTimer9triggeredEv@Base 5.0.2 1
  _ZN17QDeclarativeTimerC1EP7QObject@Base 5.0.2 1
  _ZN17QDeclarativeTimerC2EP7QObject@Base 5.0.2 1
- (optional=gccinternal)_ZN17QDeclarativeTimerD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN17QDeclarativeTimerD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN17QDeclarativeTimerD2Ev@Base 5.0.2 1
  _ZN18QDeclarativeAction17deleteFromBindingEv@Base 5.0.2 1
  _ZN18QDeclarativeActionC1EP7QObjectRK7QStringP19QDeclarativeContextRK8QVariant@Base 5.0.2 1
  _ZN18QDeclarativeActionC1EP7QObjectRK7QStringRK8QVariant@Base 5.0.2 1
@@ -440,9 +434,6 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN20QDeclarativeKeyEvent11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN20QDeclarativeKeyEvent11qt_metacastEPKc@Base 5.0.2 1
  _ZN20QDeclarativeKeyEvent16staticMetaObjectE@Base 5.0.2 1
- (optional=gccinternal)_ZN20QDeclarativeKeyEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN20QDeclarativeKeyEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN20QDeclarativeKeyEventD2Ev@Base 5.0.2 1
  _ZN20QDeclarativeMetaType11isInterfaceEi@Base 5.0.2 1
  _ZN20QDeclarativeMetaType12interfaceIIdEi@Base 5.0.2 1
  _ZN20QDeclarativeMetaType12qmlTypeNamesEv@Base 5.0.2 1
@@ -501,9 +492,6 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN20QDeclarativeRefCountD0Ev@Base 5.0.2 1
  _ZN20QDeclarativeRefCountD1Ev@Base 5.0.2 1
  _ZN20QDeclarativeRefCountD2Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN20QGraphicsViewPrivateD0Ev@Base 5.0.2
- (optional=gccinternal)_ZN20QGraphicsViewPrivateD1Ev@Base 5.0.2
- (optional=gccinternal)_ZN20QGraphicsViewPrivateD2Ev@Base 5.0.2
  _ZN21QDeclarativeComponent11beginCreateEP19QDeclarativeContext@Base 5.0.2
  _ZN21QDeclarativeComponent11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN21QDeclarativeComponent11qt_metacastEPKc@Base 5.0.2
@@ -585,9 +573,6 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN21QDeclarativeRectangle9setRadiusEd@Base 5.2.0 1
  _ZN21QDeclarativeRectangleC1EP16QDeclarativeItem@Base 5.0.2 1
  _ZN21QDeclarativeRectangleC2EP16QDeclarativeItem@Base 5.0.2 1
- (optional=gccinternal)_ZN21QDeclarativeRectangleD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN21QDeclarativeRectangleD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN21QDeclarativeRectangleD2Ev@Base 5.0.2 1
  _ZN21QDeclarativeScaleGrid11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN21QDeclarativeScaleGrid11qt_metacastEPKc@Base 5.0.2 1
  _ZN21QDeclarativeScaleGrid13borderChangedEv@Base 5.0.2 1
@@ -613,9 +598,6 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN22QDeclarativeDebugQuery8setStateENS_5StateE@Base 5.0.2 1
  _ZN22QDeclarativeDebugQueryC1EP7QObject@Base 5.0.2 1
  _ZN22QDeclarativeDebugQueryC2EP7QObject@Base 5.0.2 1
- (optional=gccinternal)_ZN22QDeclarativeDebugQueryD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN22QDeclarativeDebugQueryD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN22QDeclarativeDebugQueryD2Ev@Base 5.0.2 1
  _ZN22QDeclarativeDebugTrace10startRangeENS_9RangeTypeE@Base 5.0.2 1
  _ZN22QDeclarativeDebugTrace12addEventImplENS_9EventTypeE@Base 5.0.2 1
  _ZN22QDeclarativeDebugTrace12endRangeImplENS_9RangeTypeE@Base 5.0.2 1
@@ -635,9 +617,6 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN22QDeclarativeDebugTrace9rangeDataENS_9RangeTypeERK7QString@Base 5.0.2 1
  _ZN22QDeclarativeDebugTraceC1Ev@Base 5.0.2 1
  _ZN22QDeclarativeDebugTraceC2Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN22QDeclarativeDebugTraceD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN22QDeclarativeDebugTraceD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN22QDeclarativeDebugTraceD2Ev@Base 5.0.2 1
  _ZN22QDeclarativeDebugWatch11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN22QDeclarativeDebugWatch11qt_metacastEPKc@Base 5.0.2 1
  _ZN22QDeclarativeDebugWatch12stateChangedENS_5StateE@Base 5.0.2 1
@@ -676,9 +655,6 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN22QDeclarativeMouseEvent11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN22QDeclarativeMouseEvent11qt_metacastEPKc@Base 5.0.2 1
  _ZN22QDeclarativeMouseEvent16staticMetaObjectE@Base 5.0.2 1
- (optional=gccinternal)_ZN22QDeclarativeMouseEventD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN22QDeclarativeMouseEventD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN22QDeclarativeMouseEventD2Ev@Base 5.0.2 1
  _ZN22QDeclarativeStateGroup10classBeginEv@Base 5.0.2 1
  _ZN22QDeclarativeStateGroup11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN22QDeclarativeStateGroup11qt_metacastEPKc@Base 5.0.2 1
@@ -749,9 +725,6 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN23QDeclarativeDebugServer8instanceEv@Base 5.0.2 1
  _ZN23QDeclarativeDebugServerC1Ev@Base 5.0.2 1
  _ZN23QDeclarativeDebugServerC2Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN23QDeclarativeDebugServerD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN23QDeclarativeDebugServerD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN23QDeclarativeDebugServerD2Ev@Base 5.0.2 1
  _ZN23QDeclarativeDomDocument4loadEP18QDeclarativeEngineRK10QByteArrayRK4QUrl@Base 5.0.2 1
  _ZN23QDeclarativeDomDocumentC1ERKS_@Base 5.0.2 1
  _ZN23QDeclarativeDomDocumentC1Ev@Base 5.0.2 1
@@ -788,9 +761,6 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN23QDeclarativeEngineDebug8addWatchERK34QDeclarativeDebugPropertyReferenceP7QObject@Base 5.0.2 1
  _ZN23QDeclarativeEngineDebugC1EP27QDeclarativeDebugConnectionP7QObject@Base 5.0.2 1
  _ZN23QDeclarativeEngineDebugC2EP27QDeclarativeDebugConnectionP7QObject@Base 5.0.2 1
- (optional=gccinternal)_ZN23QDeclarativeEngineDebugD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN23QDeclarativeEngineDebugD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN23QDeclarativeEngineDebugD2Ev@Base 5.0.2 1
  _ZN23QDeclarativeItemPrivate10data_clearEP24QDeclarativeListPropertyI7QObjectE@Base 5.0.2 1
  _ZN23QDeclarativeItemPrivate10data_countEP24QDeclarativeListPropertyI7QObjectE@Base 5.0.2 1
  _ZN23QDeclarativeItemPrivate10resetWidthEv@Base 5.0.2 1
@@ -829,9 +799,6 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN23QDeclarativeItemPrivate8setWidthEd@Base 5.2.0 1
  _ZN23QDeclarativeItemPrivate9resourcesEv@Base 5.0.2 1
  _ZN23QDeclarativeItemPrivate9setHeightEd@Base 5.2.0 1
- (optional=gccinternal)_ZN23QDeclarativeItemPrivateD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN23QDeclarativeItemPrivateD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN23QDeclarativeItemPrivateD2Ev@Base 5.0.2 1
  _ZN23QDeclarativePropertyMap11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN23QDeclarativePropertyMap11qt_metacastEPKc@Base 5.0.2
  _ZN23QDeclarativePropertyMap12valueChangedERK7QStringRK8QVariant@Base 5.0.2
@@ -963,9 +930,6 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN25QDeclarativeListReferenceD1Ev@Base 5.0.2
  _ZN25QDeclarativeListReferenceD2Ev@Base 5.0.2
  _ZN25QDeclarativeListReferenceaSERKS_@Base 5.0.2
- (optional=gccinternal)_ZN26QAbstractDynamicMetaObjectD0Ev@Base 5.0.2
- (optional=gccinternal)_ZN26QAbstractDynamicMetaObjectD1Ev@Base 5.0.2
- (optional=gccinternal)_ZN26QAbstractDynamicMetaObjectD2Ev@Base 5.0.2
  _ZN26QDeclarativeBasePositioner10addChangedEv@Base 5.0.2 1
  _ZN26QDeclarativeBasePositioner10itemChangeEN13QGraphicsItem18GraphicsItemChangeERK8QVariant@Base 5.0.2 1
  _ZN26QDeclarativeBasePositioner10setSpacingEi@Base 5.0.2 1
@@ -1019,9 +983,6 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN26QDeclarativeStateOperation8setStateEP17QDeclarativeState@Base 5.0.2 1
  _ZN26QDeclarativeStateOperationC1ER14QObjectPrivateP7QObject@Base 5.0.2 1
  _ZN26QDeclarativeStateOperationC2ER14QObjectPrivateP7QObject@Base 5.0.2 1
- (optional=gccinternal)_ZN26QDeclarativeStateOperationD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN26QDeclarativeStateOperationD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN26QDeclarativeStateOperationD2Ev@Base 5.0.2 1
  _ZN27QDeclarativeAbstractBinding10setEnabledEb6QFlagsIN27QDeclarativePropertyPrivate9WriteFlagEE@Base 5.0.2 1
  _ZN27QDeclarativeAbstractBinding11addToObjectEP7QObjecti@Base 5.0.2 1
  _ZN27QDeclarativeAbstractBinding11weakPointerEv@Base 5.0.2 1
@@ -1116,9 +1077,6 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN27QDeclarativePropertyPrivate7connectEPK7QObjectiS2_iiPi@Base 5.0.2 1
  _ZN27QDeclarativePropertyPrivate7restoreERK10QByteArrayP7QObjectP23QDeclarativeContextData@Base 5.0.2 1
  _ZN27QDeclarativePropertyPrivate7restoreERKN25QDeclarativePropertyCache4DataERKNS0_13ValueTypeDataEP7QObjectP23QDeclarativeContextData@Base 5.0.2 1
- (optional=gccinternal)_ZN27QDeclarativePropertyPrivateD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN27QDeclarativePropertyPrivateD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN27QDeclarativePropertyPrivateD2Ev@Base 5.0.2 1
  _ZN28QDeclarativeCustomParserNodeC1ERKS_@Base 5.0.2 1
  _ZN28QDeclarativeCustomParserNodeC1Ev@Base 5.0.2 1
  _ZN28QDeclarativeCustomParserNodeC2ERKS_@Base 5.0.2 1
@@ -1150,9 +1108,6 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN28QDeclarativeInspectorService8instanceEv@Base 5.0.2 1
  _ZN28QDeclarativeInspectorServiceC1Ev@Base 5.0.2 1
  _ZN28QDeclarativeInspectorServiceC2Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN28QDeclarativeInspectorServiceD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN28QDeclarativeInspectorServiceD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN28QDeclarativeInspectorServiceD2Ev@Base 5.0.2 1
  _ZN28QDeclarativeStringConverters14dateFromStringERK7QStringPb@Base 5.0.2
  _ZN28QDeclarativeStringConverters14timeFromStringERK7QStringPb@Base 5.0.2
  _ZN28QDeclarativeStringConverters15colorFromStringERK7QStringPb@Base 5.0.2
@@ -1230,9 +1185,6 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN30QDeclarativeDebugPropertyWatch16staticMetaObjectE@Base 5.0.2 1
  _ZN30QDeclarativeDebugPropertyWatchC1EP7QObject@Base 5.0.2 1
  _ZN30QDeclarativeDebugPropertyWatchC2EP7QObject@Base 5.0.2 1
- (optional=gccinternal)_ZN30QDeclarativeDebugPropertyWatchD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN30QDeclarativeDebugPropertyWatchD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN30QDeclarativeDebugPropertyWatchD2Ev@Base 5.0.2 1
  _ZN30QDeclarativeDomDynamicPropertyC1ERKS_@Base 5.0.2 1
  _ZN30QDeclarativeDomDynamicPropertyC1Ev@Base 5.0.2 1
  _ZN30QDeclarativeDomDynamicPropertyC2ERKS_@Base 5.0.2 1
@@ -1323,9 +1275,6 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZN38QDeclarativeDebugObjectExpressionWatch16staticMetaObjectE@Base 5.0.2 1
  _ZN38QDeclarativeDebugObjectExpressionWatchC1EP7QObject@Base 5.0.2 1
  _ZN38QDeclarativeDebugObjectExpressionWatchC2EP7QObject@Base 5.0.2 1
- (optional=gccinternal)_ZN38QDeclarativeDebugObjectExpressionWatchD0Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN38QDeclarativeDebugObjectExpressionWatchD1Ev@Base 5.0.2 1
- (optional=gccinternal)_ZN38QDeclarativeDebugObjectExpressionWatchD2Ev@Base 5.0.2 1
  _ZN39QDeclarativeNetworkAccessManagerFactoryD0Ev@Base 5.0.2
  _ZN39QDeclarativeNetworkAccessManagerFactoryD1Ev@Base 5.0.2
  _ZN39QDeclarativeNetworkAccessManagerFactoryD2Ev@Base 5.0.2
@@ -2001,7 +1950,6 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZTV22QDeclarativeMouseEvent@Base 5.0.2 1
  _ZTV22QDeclarativeStateGroup@Base 5.0.2 1
  _ZTV22QDeclarativeTransition@Base 5.0.2 1
- _ZTV22QDynamicMetaObjectData@Base 5.0.2
  _ZTV23QDeclarativeApplication@Base 5.0.2 1
  _ZTV23QDeclarativeDebugClient@Base 5.0.2 1
  _ZTV23QDeclarativeDebugServer@Base 5.0.2 1
@@ -2030,7 +1978,6 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZTV29QDeclarativeAbstractAnimation@Base 5.0.2 1
  _ZTV29QDeclarativeDebugEnginesQuery@Base 5.0.2 1
  _ZTV30QDeclarativeDebugPropertyWatch@Base 5.0.2 1
- _ZTV30QDeclarativeExtensionInterface@Base 5.0.2
  _ZTV30QDeclarativeOpenMetaObjectType@Base 5.0.2 1
  _ZTV31QDeclarativePropertyValueSource@Base 5.0.2
  _ZTV32QDeclarativeDebugExpressionQuery@Base 5.0.2 1
@@ -2039,7 +1986,6 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZTV38QDeclarativeDebugObjectExpressionWatch@Base 5.0.2 1
  _ZTV39QDeclarativeNetworkAccessManagerFactory@Base 5.0.2
  _ZTV7QPacket@Base 5.0.2 1
- _ZTVN23QScriptDeclarativeClass6ObjectE@Base 5.0.2
  _Zls6QDebugP16QDeclarativeItem@Base 5.0.2
  _Zls6QDebugRK17QDeclarativeError@Base 5.0.2
  _ZlsR11QDataStreamRKN30QDeclarativeEngineDebugService22QDeclarativeObjectDataE@Base 5.0.2
@@ -2097,7 +2043,6 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  (c++)"non-virtual thunk to QDeclarativeParentChange::~QDeclarativeParentChange()@Base" 5.0.2
  (c++)"non-virtual thunk to QDeclarativeRectangle::boundingRect() const@Base" 5.0.2
  (c++)"non-virtual thunk to QDeclarativeRectangle::paint(QPainter*, QStyleOptionGraphicsItem const*, QWidget*)@Base" 5.0.2
- (c++|optional=gccinternal)"non-virtual thunk to QDeclarativeRectangle::~QDeclarativeRectangle()@Base" 5.0.2
  (c++)"non-virtual thunk to QDeclarativeScriptAction::~QDeclarativeScriptAction()@Base" 5.0.2
  (c++)"non-virtual thunk to QDeclarativeStateGroup::classBegin()@Base" 5.0.2
  (c++)"non-virtual thunk to QDeclarativeStateGroup::componentComplete()@Base" 5.0.2
@@ -2110,5 +2055,4 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  (c++)"non-virtual thunk to QDeclarativeText::~QDeclarativeText()@Base" 5.0.2
  (c++)"non-virtual thunk to QDeclarativeTimer::classBegin()@Base" 5.0.2
  (c++)"non-virtual thunk to QDeclarativeTimer::componentComplete()@Base" 5.0.2
- (c++|optional=gccinternal)"non-virtual thunk to QDeclarativeTimer::~QDeclarativeTimer()@Base" 5.0.2
  (c++)"non-virtual thunk to QDeclarativeView::~QDeclarativeView()@Base" 5.0.2
