@@ -1,12 +1,11 @@
-qtquick1-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
+qtquick1-opensource-src (5.5.0-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * This module is now deprecated. Move to oldlibs section.
   * Bump Qt build-dependencies to 5.5.0.
   * Update debian/copyright.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 30 Aug 2015 16:06:21 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 30 Aug 2015 16:36:53 +0300
 
 qtquick1-opensource-src (5.4.2-3) unstable; urgency=medium
 
