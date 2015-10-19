@@ -6,6 +6,7 @@ qtquick1-opensource-src (5.5.1-1) UNRELEASED; urgency=medium
   * Remove GStreamer-related build dependencies. They are not used
     in the code, possibly some left over of wrong linking flags
     from othe package.
+  * Do not ship private headers anymore. We are not using them.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 19 Oct 2015 14:06:09 -0300
 
