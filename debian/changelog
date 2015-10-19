@@ -3,6 +3,9 @@ qtquick1-opensource-src (5.5.1-1) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
     - Bump Qt build dependencies.
+  * Remove GStreamer-related build dependencies. They are not used
+    in the code, possibly some left over of wrong linking flags
+    from othe package.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 19 Oct 2015 14:06:09 -0300
 
