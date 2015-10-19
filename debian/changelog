@@ -1,6 +1,5 @@
-qtquick1-opensource-src (5.5.1-1) UNRELEASED; urgency=medium
+qtquick1-opensource-src (5.5.1-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
     - Bump Qt build dependencies.
   * Remove GStreamer-related build dependencies. They are not used
@@ -10,7 +9,7 @@ qtquick1-opensource-src (5.5.1-1) UNRELEASED; urgency=medium
     - Do not create qtquick1-abi-x-y-x anymore.
     - Keep marking private symbols as such. It makes maintaining them easier.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 19 Oct 2015 14:06:09 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 19 Oct 2015 15:01:29 -0300
 
 qtquick1-opensource-src (5.5.0-1) experimental; urgency=medium
 
