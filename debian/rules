@@ -28,7 +28,7 @@ override_dh_auto_install:
 	      debian/private-headers
 
 	# Remove some other private stuff.
-	rm -fv usr/lib/$(DEB_HOST_MULTIARCH)/qt5/mkspecs/modules/qt_lib_declarative_private.pri
+	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/mkspecs/modules/qt_lib_declarative_private.pri
 
 	# libtool-like files
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
