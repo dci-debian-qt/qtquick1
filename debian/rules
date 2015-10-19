@@ -11,11 +11,24 @@ export QT_SELECT := qt5
 %:
 	dh $@ --parallel --with pkgkde_symbolshelper --dbg-package=qtquick1-5-dbg
 
+override_dh_clean:
+	dh_clean
+	# Remove private headers.
+	rm -rfv debian/private-headers
+
 override_dh_auto_configure:
 	qmake 
 
 override_dh_auto_install:
 	dh_auto_install
+
+	# Move private headers out of debian/tmp
+	mkdir -p debian/private-headers
+	mv -v debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtDeclarative/*/QtDeclarative/private/ \
+	      debian/private-headers
+
+	# Remove some other private stuff.
+	rm -fv usr/lib/$(DEB_HOST_MULTIARCH)/qt5/mkspecs/modules/qt_lib_declarative_private.pri
 
 	# libtool-like files
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
@@ -33,4 +46,4 @@ override_dh_install:
 override_dh_makeshlibs:
 	dh_makeshlibs
 	# Check for private symbols not marked as such.
-	pkgkde-mark-private-symbols debian/qtquick1-5-private-dev/usr/include
+	pkgkde-mark-private-symbols debian/private-headers
