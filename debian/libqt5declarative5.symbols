@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.2 amd64
+# SymbolsHelper-Confirmed: 5.5.1 arm64 armel armhf i386 mipsel powerpc ppc64 ppc64el s390x
 libQt5Declarative.so.5 libqt5declarative5 #MINVER#
 | libqt5declarative5 #MINVER#
  _Z10qmlContextPK7QObject@Base 5.0.2
@@ -9,7 +9,7 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _Z7qmlInfoPK7QObjectRK17QDeclarativeError@Base 5.0.2
  _Z7qmlInfoPK7QObjectRK5QListI17QDeclarativeErrorE@Base 5.0.2
  _Z9qmlEnginePK7QObject@Base 5.0.2
- (optional=inline|arch=alpha amd64 arm64 armel hppa powerpc ppc64 ppc64el s390x sparc64)_ZN10QByteArray7reserveEi@Base 5.3.0
+ (optional=inline|arch=alpha amd64 armhf hppa i386 mipsel sparc64)_ZN10QByteArray7reserveEi@Base 5.3.0
  _ZN13QtDeclarative10qmlContextEPK7QObject@Base 5.1.0
  _ZN13QtDeclarative18qmlExecuteDeferredEP7QObject@Base 5.1.0
  _ZN13QtDeclarative27qmlAttachedPropertiesObjectEPiPK7QObjectPK11QMetaObjectb@Base 5.1.0
@@ -1779,6 +1779,7 @@ libQt5Declarative.so.5 libqt5declarative5 #MINVER#
  _ZNK38QDeclarativeDebugObjectExpressionWatch10metaObjectEv@Base 5.0.2 1
  _ZNK7QPacket4dataEv@Base 5.0.2 1
  _ZNK7QPacket7isEmptyEv@Base 5.0.2 1
+ (optional=templinst|arch=armel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.5.1
  _ZTI11QDataStream@Base 5.0.2
  _ZTI11QMetaObject@Base 5.0.2
  _ZTI11QSharedData@Base 5.0.2
